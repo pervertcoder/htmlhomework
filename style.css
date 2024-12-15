@@ -72,20 +72,27 @@ table {
 	margin-right: 2px;
 	margin-left: 2px;
 	color: #4460a0;
+	display: inline-block;
    }
    .fllow{
 	margin-left: 2px;
 	margin-right: 2px;
 	color: #00aaec;
+	display: inline-block;
    }
    .bird{
 	margin-right: 5px;
 	margin-left: 5px;
 	height: 16px;
+	display: inline-block;
    }
    .fb{
 	margin-right: 5px;
-	height: 16px;
+	height: 15px;
+	display: inline-blockck;
+   }
+   .pagefora, .followfora{
+	text-decoration: none;
    }
    .secondT{
 	/*border: dashed black 1px;*/ /*just for auxiliary line!!*/
@@ -127,6 +134,13 @@ table {
 	margin-left: 0px;
 	margin-right: 15px;
    }
+   .van a{
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+   }
+   .van a:hover{
+	border-bottom: 5px solid #b8ebda;
+   }
    /*.banner{
 	border: dashed black 1px;
 	height: 346px;
@@ -156,12 +170,70 @@ table {
 	/*background-color: blue;*/
 	/*border: solid black 1px;*/
    }
-   .banner3{
+   .bannercover1{
+	width: 100%;
+	height: 95px;
+	background-color: gray;
+	opacity: 0.1;
+	position: absolute;
+	top: 80px;
+	/*border: solid black 0.5px;*/
+   }
+   .bannercover2{
+	width: 100%;
+	height: 95px;
+	background-color: gray;
+	opacity: 0.1;
+	position: absolute;
+	top: 335px;
+	/*border: solid black 0.5px;*/
+   }
+   .bannerword{
 	width: 100%;
 	height: 160px;
-	border: black solid 0.5px;
-	background-color: red;
 	position: absolute;
+	top: 175px;
    }
+   .bannerword p{
+	font-size: 40px;
+	color: white;
+   }
+   .bannerword1{
+	padding-top: 40px;
+   }
+   .lesson{
+	width: 100%;
+	height: 408px;
+	border-bottom: black solid 0.5px;
+	display: flex;
+	justify-content: space-around;
+   }
+   .html5, .RWD, .jQuery{
+	width: 470px;
+	height: 330px;
+	border: black solid 1px;
+   }
+   .html5 img{
+	position: relative;
+	left: 18%;
+   }
+   .html5 h1{
+	text-align: center;
+   }
+   .RWD img{
+	position: relative;
+	left: 18%;
+   }
+   .RWD h1{
+	text-align: center;
+   }
+   .jQuery img{
+	position: relative;
+	left: 18%;
+   }
+   .jQuery h1{
+	text-align: center;
+   }
+   
 
    /*banner1 and banner2 have some problems. They have to be solved*/
