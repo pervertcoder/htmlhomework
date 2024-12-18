@@ -151,7 +151,6 @@ table {
 
 	
   	.banner1{
-	/*width: 534px;*/
 	width: 40%;
 	height: 346px;
 	background-image: url(./image/banner\ reresize.png);
@@ -161,7 +160,6 @@ table {
 	}
    .banner2{
 	display: inline-block;
-	/*width: 1002px;*/
 	width: 60%;
 	height: 346px;
 	background-image: url(./image/banner.png);
@@ -267,6 +265,8 @@ table {
    }
    li{
 	list-style-type: circle;
+	position: relative;
+	left: 15px;
    }
    .table1{
 	width: 100%;
@@ -351,9 +351,8 @@ table {
    }
    label{
 	display: block;
-	font-style: oblique;
 	color: white;
-	font-size: 20pxs;
+	font-size: 18px;
 	margin-left: 15px;
 	margin-top: 5px;
    }
@@ -361,14 +360,21 @@ table {
 	margin-top: 5px;
 	margin-left: 10px;
 	height: 30px;
+	border: 0px solid green;
 	border-radius: 5px 5px 5px 5px;
 	display: inline-block;
+	outline: none;
    }
    .submit{
 	display: inline-block;
 	margin-top: 25px;
 	position: relative;
-	left: 86%;
+	left: 82%;
+	background-color: #0c9;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: content-box;
    }
    /*.blocker{
 	height: 30px;
@@ -407,13 +413,17 @@ table {
    }
    .upperword{
 	position: relative;
+	width: 230px;
 	top: 30px;
 	left: 135px;
    }
    .downword{
 	position: relative;
+	width: 230px;
 	top: 35px;
 	left: 135px;
    }
-   
+   *{
+	/*outline: 1px solid red;*/
+   }
    /*banner1 and banner2 have some problems. They have to be solved*/
