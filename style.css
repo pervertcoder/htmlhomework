@@ -416,6 +416,14 @@ table {
    .upperword, .downword{
 	width: 230px;
    }
+   .upperword{
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+   }
+   .downword{
+	margin-top: 3px;
+	padding-top: 3px;
+   }
    .end{
 	width: 100%;
 	height: 40px;
