@@ -373,10 +373,43 @@ table {
 	display: inline-block;
 	margin-top: 10px;
    }*/
-	.tail{
+	footer{
 	width: 100%;
-	height: 400px;
+	height: 121px;
+	/*border: solid black 1px;*/
+	display: flex;
 	}
+   mark{
+	background-color: transparent;
+	color: red;
+   }
+   .hexgrey, .mailphone{
+	/*border: black solid 1px;*/
+   }
+   .hexgrey{
+	width: 80%;
+   }
+   .mailphone{
+	width: 20%;
+   }
+   .mailphone p{
+	/*border: black solid 1px;*/
+   }
+   .hexlogogrey{
+	display: block;
+	position: relative;
+	top: 25px;
+	margin-left: 20px;
+   }
+   .upperword{
+	position: relative;
+	top: 30px;
+	left: 135px;
+   }
+   .downword{
+	position: relative;
+	top: 35px;
+	left: 135px;
+   }
    
-
    /*banner1 and banner2 have some problems. They have to be solved*/
