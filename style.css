@@ -1,57 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-/*This is the start point*/
-/*This is the start point*/
-/*This is the start point*/
-/*This is the start point*/
 .line{
 	border-left: solid grey 0.5px;
 	margin-left: 5px;
@@ -61,7 +7,6 @@ table {
    .top{
 	width: 100%;
 	height: 30px;
-	/*border: black dashed 1px;*/ /*just for auxiliary line!!*/
 	display: flex;
 	justify-content: end;
 	background-color: #f6f6f6;
@@ -89,26 +34,23 @@ table {
    .fb{
 	margin-right: 5px;
 	height: 15px;
-	display: inline-blockck;
+	display: inline-block;
    }
    .pagefora, .followfora{
 	text-decoration: none;
    }
    .secondT{
-	/*border: dashed black 1px;*/ /*just for auxiliary line!!*/
 	width: 100%;
 	height: 51px;
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
-	/*padding-top: 15px;*/
 	box-sizing: border-box;
    }
    .van{
 	display: flex;
    }
    .logo{
-	/*background-color: blue;*/
 	height: 100%;
 	width: 200px;
    }
@@ -117,7 +59,6 @@ table {
 }
    .homepage, .product, .contact{
 	color: #b8ebda;
-	/*background-color: black;*/
 	vertical-align: middle;
    }
    .homepage{
@@ -127,7 +68,7 @@ table {
    .product{
 	margin-top: 15px;
 	margin-right: 30px;
-	margin-left: 30px;q
+	margin-left: 30px;
    }
    .contact{
 	margin-top: 15px;
@@ -140,23 +81,12 @@ table {
    }
    .van a:hover{
 	border-bottom: 5px solid #b8ebda;
-   }
-   /*.banner{
-	border: dashed black 1px;
-	height: 346px;
-	background-image: url(../htmlcsshomework/image/banner.png);
-	background-repeat: no-repeat;
-	background-position: 100%;*/   /*there is a qusetion here why makes the imge on the right-end*/
-	/*background-size: cover;}*/
-
-	
+   }	
   	.banner1{
 	width: 40%;
 	height: 346px;
-	background-image: url(./image/banner\ reresize.png);
+	background-image: url(./image/banner\ resize\ v2.png);
 	display: inline-block;
-	/*background-color: red;*/
-	/*border: solid black 1px;*/
 	}
    .banner2{
 	display: inline-block;
@@ -166,8 +96,6 @@ table {
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: cover;
-	/*background-color: blue;*/
-	/*border: solid black 1px;*/
    }
    .bannercover1{
 	width: 100%;
@@ -176,7 +104,6 @@ table {
 	opacity: 0.1;
 	position: absolute;
 	top: 80px;
-	/*border: solid black 0.5px;*/
    }
    .bannercover2{
 	width: 100%;
@@ -185,8 +112,7 @@ table {
 	opacity: 0.1;
 	position: absolute;
 	top: 335px;
-	/*border: solid black 0.5px;*/
-   }
+    }
    .bannerword{
 	width: 100%;
 	height: 160px;
@@ -208,14 +134,12 @@ table {
 	margin-top: 100px;
 	width: 100%;
 	height: 400px;
-	/*border-bottom: black solid 0.5px;*/
 	display: flex;
 	justify-content: space-around;
    }
-   .html5, .RWD, .jQuery{
+   .html5, .rwd, .jquery{
 	width: 470px;
 	height: 330px;
-	/*border: black solid 1px;*/
 	box-shadow: 0px 4px 4px #dbdbdb;
 	border-radius: 5px 5px 5px 5px;
    }
@@ -227,19 +151,19 @@ table {
 	text-align: center;
 	font-size: 20px;
    }
-   .RWD img{
+   .rwd img{
 	position: relative;
 	left: 18%;
    }
-   .RWD h1{
+   .rwd h2{
 	text-align: center;
 	font-size: 20px;
    }
-   .jQuery img{
+   .jquery img{
 	position: relative;
 	left: 18%;
    }
-   .jQuery h1{
+   .jquery h3{
 	text-align: center;
 	font-size: 20px;
    }
@@ -250,14 +174,14 @@ table {
 	margin-right: 25px;
 	margin-left: 25px;
    }
-   .RWD p{
+   .rwd p{
 	font-size: 14px;
 	line-height: 20px;
 	margin-top: 15px;
 	margin-right: 25px;
 	margin-left: 25px;
    }
-   .jQuery ul li{
+   .jquery ul li{
 	font-size: 14px;
 	margin-top: 5px;
 	margin-right: 25px;
@@ -272,7 +196,7 @@ table {
 	width: 100%;
 	height: 400px;
    }
-   .table1 h1{
+   .table1 h4{
 	text-align: center;
 	font-size: 36px;
 	margin-bottom: 20px;
@@ -310,7 +234,6 @@ table {
    .form{
 	height: 470px;
 	width: 100%;
-	/*border: solid 2px black;*/
 	background-image: linear-gradient(to bottom, #00644b, #009772);
 	box-sizing: border-box;
    }
@@ -347,7 +270,6 @@ table {
 	margin-top: 50px;
 	margin-left: 20px;
 	justify-content: flex-end;
-	/*border: solid 1px black;*/
    }
    label{
 	display: block;
@@ -376,25 +298,14 @@ table {
 	padding-right: 20px;
 	box-sizing: content-box;
    }
-   /*.blocker{
-	height: 30px;
-	width: 543px;
-	border: 1px solid black;
-	display: inline-block;
-	margin-top: 10px;
-   }*/
 	footer{
 	width: 100%;
 	height: 121px;
-	/*border: solid black 1px;*/
 	display: flex;
 	}
    mark{
 	background-color: transparent;
 	color: red;
-   }
-   .hexgrey, .mailphone{
-	/*border: black solid 1px;*/
    }
    .hexgrey{
 	width: 87%;
@@ -424,13 +335,6 @@ table {
 	margin-top: 3px;
 	padding-top: 3px;
    }
-   .end{
-	width: 100%;
-	height: 40px;
-	background-color: white;
-   }
-
-   *{
-	/*outline: 1px solid red;*/
-   }
-   /*banner1 and banner2 have some problems. They have to be solved*/
+   /**{
+	outline: 1px solid red;
+   }*/
