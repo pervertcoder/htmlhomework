@@ -6,12 +6,10 @@
    }
    .top{
 	width: 100%;
-	height: 30px;
+	padding: 5px;
 	display: flex;
 	justify-content: end;
 	background-color: #f6f6f6;
-	padding: 5px;
-	box-sizing: border-box;
    }
    .page{
 	margin-right: 2px;
@@ -41,11 +39,10 @@
    }
    .secondT{
 	width: 100%;
-	height: 51px;
+	padding: 1px;
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
-	box-sizing: border-box;
    }
    .van{
 	display: flex;
@@ -60,6 +57,8 @@
    .homepage, .product, .contact{
 	color: #b8ebda;
 	vertical-align: middle;
+	font-size: larger;
+	font-weight: bold;
    }
    .homepage{
 	margin-top: 15px;
