@@ -83,14 +83,17 @@
    }	
   	.banner1{
 	width: 40%;
-	height: 346px;
-	background-image: url(./image/banner\ resize\ v2.png);
+	padding-top: 173px;
+	padding-bottom: 173px;
+	background-image: url(./image/banneresizev2.png);
 	display: inline-block;
+	background-size: cover;
 	}
    .banner2{
 	display: inline-block;
 	width: 60%;
-	height: 346px;
+	padding-top: 173px;
+	padding-bottom: 173px;
 	background-image: url(./image/banner.png);
 	background-repeat: no-repeat;
 	background-position: right;
@@ -99,6 +102,8 @@
    .bannercover1{
 	width: 100%;
 	height: 95px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: gray;
 	opacity: 0.1;
 	position: absolute;
@@ -106,15 +111,17 @@
    }
    .bannercover2{
 	width: 100%;
-	height: 95px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background-color: gray;
 	opacity: 0.1;
 	position: absolute;
-	top: 335px;
+	top: 325px;
     }
    .bannerword{
 	width: 100%;
-	height: 160px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	position: absolute;
 	top: 175px;
    }
@@ -123,7 +130,7 @@
 	color: white;
    }
    .bannerword1{
-	padding-top: 40px;
+	padding-top: 25px;
 	padding-left: 20px;
    }
    .bannerword2{
@@ -132,13 +139,15 @@
    .part2{
 	margin-top: 100px;
 	width: 100%;
-	height: 400px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	display: flex;
 	justify-content: space-around;
    }
    .html5, .rwd, .jquery{
 	width: 470px;
-	height: 330px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	box-shadow: 0px 4px 4px #dbdbdb;
 	border-radius: 5px 5px 5px 5px;
    }
@@ -198,7 +207,8 @@
    .part3 h4{
 	text-align: center;
 	font-size: 36px;
-	margin-bottom: 20px;
+	margin-top: 35px;
+	margin-bottom: 35px;
    }
    table{
 	margin-top: 30px;
