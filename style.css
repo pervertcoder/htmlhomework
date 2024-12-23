@@ -85,7 +85,7 @@
 	width: 40%;
 	padding-top: 173px;
 	padding-bottom: 173px;
-	background-image: url(./image/banneresizev2.png);
+	background-image: url("./image/banneresizev2.png");
 	display: inline-block;
 	background-size: cover;
 	}
@@ -94,7 +94,7 @@
 	width: 60%;
 	padding-top: 173px;
 	padding-bottom: 173px;
-	background-image: url(./image/banner.png);
+	background-image: url("./image/banner.png");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: cover;
