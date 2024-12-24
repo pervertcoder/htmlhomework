@@ -19,7 +19,7 @@
    }
    .fllow{
 	margin-left: 2px;
-	margin-right: 2px;
+	margin-right: 10px;
 	color: #00aaec;
 	display: inline-block;
    }
@@ -333,9 +333,9 @@
 	margin-left: 2px;
 	margin-right: 2px;
    }
-   .upperword, .downword{
+   /*.upperword, .downword{
 	width: 230px;
-   }
+   }*/
    .upperword{
 	margin-bottom: 3px;
 	padding-bottom: 3px;
