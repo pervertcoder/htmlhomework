@@ -5,7 +5,6 @@
 	left: 50%;
    }
    .top{
-	width: 100%;
 	padding: 5px;
 	display: flex;
 	justify-content: end;
@@ -38,7 +37,6 @@
 	text-decoration: none;
    }
    .secondT{
-	width: 100%;
 	padding: 1px;
 	background-color: white;
 	display: flex;
@@ -241,10 +239,9 @@
 	color: green;
    }
    .part4{
-	height: 470px;
+	padding-bottom: 360px;
 	width: 100%;
 	background-image: linear-gradient(to bottom, #00644b, #009772);
-	box-sizing: border-box;
    }
    .interesting, .information{
 	font-size: 40px;
@@ -266,7 +263,6 @@
    }
    .blank{
 	width: 660px;
-	height: 250px;
 	background-color: white;
 	margin-top: 50px;
 	margin-left: 20px;
@@ -274,7 +270,6 @@
    }
    .personaldata{
 	width: 660px;
-	height: 250px;
 	background-color: transparent;
 	margin-top: 50px;
 	margin-left: 20px;
@@ -309,7 +304,8 @@
    }
 	footer{
 	width: 100%;
-	height: 121px;
+	padding-top: 40px;
+	padding-bottom: 50px;
 	display: flex;
 	}
    mark{
@@ -333,9 +329,6 @@
 	margin-left: 2px;
 	margin-right: 2px;
    }
-   /*.upperword, .downword{
-	width: 230px;
-   }*/
    .upperword{
 	margin-bottom: 3px;
 	padding-bottom: 3px;
