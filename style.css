@@ -150,24 +150,21 @@
 	border-radius: 5px 5px 5px 5px;
    }
    .html5 img{
-	position: relative;
-	left: 18%;
+	padding-left: 89px;
    }
    .html5 h1{
 	text-align: center;
 	font-size: 20px;
    }
    .rwd img{
-	position: relative;
-	left: 18%;
+	padding-left: 89px;
    }
    .rwd h2{
 	text-align: center;
 	font-size: 20px;
    }
    .jquery img{
-	position: relative;
-	left: 18%;
+	padding-left: 89px;
    }
    .jquery h3{
 	text-align: center;
